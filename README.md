@@ -83,7 +83,7 @@ node src/sync.js search sftp
 
 ## Why I built this
 
-I'm not a genius developer solving a hard problem - I'm someone who got tired of manually checking hundreds of flows every time another team said "check if this is broken." If you're in the same position, this might save you some time too. Feedback, issues, and PRs are welcome.
+I'm someone who got tired of manually checking hundreds of flows every time another team said "check if this is broken." If you're in the same position, this might save you some time too. Feedback, issues, and PRs are welcome.
 
 ## License
 
