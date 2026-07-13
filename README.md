@@ -75,11 +75,6 @@ You don't need the extension to search - the sync script itself doubles as a CLI
 node src/sync.js search sftp
 ```
 
-## Current limitations
-
-- **Localhost only.** The backend and extension only work while `server.js` is running on your machine. Moving this to a small shared/hosted backend (with proper auth) is the natural next step for team-wide use.
-- **Point-in-time snapshot.** Search reflects whatever the last `npm run sync` pulled - it won't auto-detect new or changed iFlows.
-- **No click-to-open (yet).** Clicking a result doesn't currently deep-link to that exact iFlow in the CPI Web UI.
 
 ## Why I built this
 
