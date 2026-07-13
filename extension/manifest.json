@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "CPI Explorer",
+  "version": "1.0",
+  "description": "Search across all your SAP CPI iFlows for hosts, paths, RFCs, and more.",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [],
+  "host_permissions": [
+    "http://localhost:3000/*"
+  ]
+}

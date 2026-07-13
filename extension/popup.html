@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>CPI Explorer</title>
+  <style>
+    body {
+      width: 420px;
+      max-height: 550px;
+      font-family: -apple-system, "Segoe UI", Arial, sans-serif;
+      margin: 0;
+      padding: 12px;
+      background: #f5f6f8;
+    }
+    h1 {
+      font-size: 15px;
+      margin: 0 0 10px 0;
+      color: #223;
+    }
+    #searchBox {
+      width: 100%;
+      padding: 8px 10px;
+      font-size: 14px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      box-sizing: border-box;
+    }
+    #status {
+      font-size: 12px;
+      color: #777;
+      margin: 6px 0;
+    }
+    #results {
+      margin-top: 8px;
+      overflow-y: auto;
+      max-height: 420px;
+    }
+    .result {
+      background: white;
+      border: 1px solid #e2e2e2;
+      border-radius: 6px;
+      padding: 8px 10px;
+      margin-bottom: 6px;
+      font-size: 12px;
+    }
+    .result .iflow {
+      font-weight: 600;
+      color: #0a5;
+    }
+    .result .pkg {
+      color: #888;
+      font-size: 11px;
+    }
+    .result .prop {
+      margin-top: 4px;
+      font-family: Consolas, monospace;
+      background: #f0f0f0;
+      padding: 3px 5px;
+      border-radius: 3px;
+      word-break: break-all;
+    }
+    .empty {
+      color: #999;
+      font-size: 12px;
+      text-align: center;
+      padding: 20px 0;
+    }
+  </style>
+</head>
+<body>
+  <h1>CPI Explorer</h1>
+  <input id="searchBox" type="text" placeholder="Search host, path, RFC, queue..." autofocus />
+  <div id="status"></div>
+  <div id="results"></div>
+  <script src="popup.js"></script>
+</body>
+</html>

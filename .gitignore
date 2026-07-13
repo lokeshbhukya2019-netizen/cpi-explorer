@@ -1,0 +1,12 @@
+# Dependencies
+node_modules/
+
+# Secrets
+.env
+
+# Generated data (contains your tenant's real iFlow contents - don't commit)
+data/
+
+# OS/editor noise
+.DS_Store
+*.log
